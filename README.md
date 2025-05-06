@@ -1,72 +1,51 @@
-🔗 CSEg5304 Blockchain Project — Solidity Smart Contract Development
+# React Movie Search App
 
-📚 Course Chosen
+A simple and modern React application to search for movies using the [OMDb API](https://www.omdbapi.com/). Browse movies, view details, and enjoy a clean, responsive UI.
 
-Alchemy University – Learn Solidity
+## Features
+- 🔍 Search for movies by title
+- 🎬 View detailed information for each movie
+- 🖼️ Clickable movie posters
+- 🛣️ Routing with React Router (deep linking to movie detail pages)
+- ⚡ Fast and responsive design
 
-Beginner-friendly course for mastering the fundamentals of Solidity and smart contract development on the Ethereum blockchain.
+## Demo
+![App Screenshot](public/logo192.png)
 
-🧑‍🤝‍🧑 Group Members
+## Getting Started
 
-Member 1: Abubeker Murad (GitHub: @Abubeker01) ID: Ugr/22685/13
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v14 or higher recommended)
+- npm (comes with Node.js)
 
-Member 2: Abdulaziz Nejib (GitHub: @abdu128): IDL UGR/22802/13
+### Installation
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Abubeker01/Search_Project.git
+   cd Search_Project
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Get an OMDb API key:**
+   - Sign up for a free API key at [OMDb API](https://www.omdbapi.com/apikey.aspx)
+4. **Create a `.env` file in the project root:**
+   ```env
+   REACT_APP_MOVIES_API_URL=https://www.omdbapi.com/?apikey=YOUR_API_KEY
+   ```
+   Replace `YOUR_API_KEY` with your actual OMDb API key.
+5. **Start the development server:**
+   ```bash
+   npm start
+   ```
+   The app will open at [http://localhost:3000](http://localhost:3000)
 
-Member 3: Arefat Akrem (GitHub: @mafiapoii) ID: UGR/22976/13
+## Usage
+- Type a movie title in the search bar and press Enter or click the search icon.
+- Click on any movie poster to view detailed information about the movie.
+- Use the browser's back button to return to the search results.
 
-Member 4: Ashenafi Mulugeta (GitHub: @ASHH27)  ID: Ugr/22703/13
-
-Member 5: Hamza Musema (GitHub: @Hamza2679)  ID: Ugr/22699/13
-
-📌 All members have successfully signed up for the course, completed the required modules.
-
-📁 Repository Structure
-
-.
-├── Notes/ # Lesson notes and learning summaries
-
-├── Code/ # All code exercises and smart contracts
-
-├── Screenshots/ # Course completion and exercise proof
-
-├── Resources/ # Supplementary materials (e.g., docs, cheat sheets)
-
-└── README.md # This file
-
-🛠️ Tasks Completed
-
-✅ Signed up and enrolled in Alchemy University – Learn Solidity
-
-✅ Completed all lessons, exercises, and interactive tasks
-
-✅ Created and organized this public GitHub repository for collaboration
-
-✅ Uploaded:
-
--Course notes per lesson
-
--All codebases and exercises
-
--Screenshots showing learning milestones
-
--Supplementary learning resources
-
-✅ Maintained regular commits and transparent group collaboration
-
-📅 Deadline
-
-Submission Due: May 7, 2025
-
-Status: ✅ Completed and Submitted
-
-📝 How to Navigate This Repo
-
--Browse through Notes/ for conceptual summaries.
-
--Explore Code/ to see Solidity smart contract implementations.
-
--View Screenshots/ to track progress visually.
-
--Check Resources/ for extra learning material related to Solidity and Ethereum.
-
-Feel free to clone or fork for educational purposes. Happy building on the blockchain! 🧱🚀
+## Dependencies
+- React
+- react-router-dom
