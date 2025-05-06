@@ -15,8 +15,10 @@ In Solidity, **value types** are types that hold their data directly in memory o
 uint256 age = 30;
 uint8 smallNumber = 250;
 ```
+git config user.name "abdu128"
+git config user.email "abdulaziznejo1281@gmail.com"
 
----
+
 
 ➕ int (Signed Integer)
 ------------------------
