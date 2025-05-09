@@ -10,7 +10,7 @@ A simple and modern React application to search for movies using the [OMDb API](
 - ⚡ Fast and responsive design
 
 ## Demo
-![App Screenshot](public/logo192.png)
+![App Screenshot](public/Screenshot 2025-07-22 234259.png)
 
 ## Getting Started
 
